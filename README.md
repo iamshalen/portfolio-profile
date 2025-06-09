@@ -1,135 +1,137 @@
-![hero](example/hero.png)
+<div align="center">
 
-# Portfolio using React.js and Chakra UI
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Portfolio%20Website%20V2&fontSize=80&animation=fadeIn&fontAlignY=35)
 
-This portfolio is built using React.js and Chakra UI. It allows you to quickly create and customize your portfolio website using markdown files.
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#tech-stack">Tech Stack</a>
+</p>
 
-|    ![experience](example/Experience.gif)    | ![projects](example/Projects.gif) |
-| :-----------------------------------------: | :-------------------------------: |
-|       Document your work experiences        |    Showcase your best projects    |
-| ![otherprojects](example/OtherProjects.gif) |   ![mobile](example/Mobile.gif)   |
-|        Include your smaller projects        |     Mobile-responsive design      |
+[![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)
+[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fportfolio-lohit.vercel.app)](https://portfolio-lohit.vercel.app)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
-## Getting Started
+<p align="center">A modern, responsive portfolio website showcasing professional experience, projects, and skills. Built with React, Vite, and Tailwind CSS, featuring smooth animations and interactive 3D elements. ✨</p>
 
-To get started with development, you can use the following commands:
+</div>
 
-```
-# Install dependencies
-yarn install
+## ✨ Features
 
-# Start the development server
-yarn start
+<div align="center">
 
-# Build the static files
-yarn build
-```
-
-After running `yarn start`, your website should be available at `http://localhost:3000`.
-
-## Site Name
-
-To edit the site name, go to `public/index.html` and change the `<title>`
-
-```
-<title>Site Name</title>
-```
-
-## Editing Content
-
-To edit the content on your website, refer to the markdown files located in the `public/content` folder.
-
-### Profile.md
-
-```
-## Header
-- Hi, my name is ______.
-- I'm a ______.
-- Short Description Here.
-
-## About
-Write your "About" section here.
-
-## Contact
-Write your "Contact" section here.
-- LinkedIn: https://linkedin.com/in/username
-- GitHub: https://github.com/username
-- Email: username@gmail.com
-
-## Logo
-- EB
+```mermaid
+mindmap
+  root((Portfolio Website))
+    User Interface
+      Responsive Design
+      Smooth Animations
+      Interactive 3D Elements
+    Sections
+      About Me
+      Experience
+      Projects
+      Contact
+    Technical Features
+      React with Vite
+      Tailwind CSS Styling
+      EmailJS Integration
+    Integrations
+       Email Contact
+      Project Showcase
 ```
 
-### ExperienceTags.md and ProjectsTags.md
+</div>
 
-```
-Category 1
-Category 2
-Category 3
-```
+## 🚀 Demo
 
-### Experience.md
+Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
 
-To edit your work experience, update the `Experience.md` file with the following format:
+## 🛠️ Installation
 
-```
-## Company Name
-- *Role* | Period
-- ![image_name](../assets/image_name.png)
-- Tags: Work
-- Badges:
-  - BadgeContent [badge_colour]
-- List Items:
-  - Point 1
-  - Point 2
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/lohitkolluri/Portfolio-Website
 ```
 
-### Projects.md
+2️⃣ Navigate to project directory:
 
-To edit your projects, update the `Projects.md` file with the following format:
-
-```
-## Project Name
-Description
-- ![image_name](../assets/image_name.png)
-- Tags: WebDev
-- Badges:
-  - BadgeContent [badge_colour]
-- Buttons:
-  - ButtonContent [button_link]
+```bash
+cd Portfolio-Website
 ```
 
-### OtherProjects.md
+3️⃣ Install dependencies:
 
-To edit other projects or items, update the `OtherProjects.md` file with the following format:
-
-```
-## Project Name
-Description
-- Tags: WebDev
-- Badges:
-  - BadgeContent [badge_colour]
-- Buttons:
-  - ButtonContent [button_link]
+```bash
+npm install
 ```
 
-## Colour Theme
+4️⃣ Run development server:
 
-You can choose from 10 different colours provided by Chakra UI. Modify the `color` variable in the `App.js` file located in the `src` folder.
-
-```
-// Available Colours:
-// blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
-
-const color = "pink";
+```bash
+npm run dev
 ```
 
-## Customizing Design
+5️⃣ Open in browser:
 
-You can customize the design of your website by modifying the `theme.js` file located in the `src` folder. Refer to the Chakra UI documentation for more information on how to customize your theme.
+- Visit [http://localhost:3000](http://localhost:3000)
 
-## Usage
+## 💻 Tech Stack
 
-You may use this template for your own portfolio as long as you give me proper credit by linking back to my profile.
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      <br>React
+    </td>
+      <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
+      <br>Vite
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
+      <br>Tailwind CSS
+    </td>
+      <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="Three.js" />
+      <br>Three.js
+    </td>
+  </tr>
+</table>
 
-For more details on hosting this site, you may refer to [A Step-by-Step Guide: Deploying on Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
+## ⚡ Core Features
+
+- 📱 Responsive Design
+
+  - Mobile-first approach
+  - Seamless experience across all devices
+  - Adaptive layouts and components
+
+- 🎯 Dynamic Content
+
+  - Interactive project showcase
+  - Engaging experience section
+  - Animated skill representations
+
+- 🎨 Modern UI/UX
+
+  - Smooth Framer Motion animations
+  - Intuitive navigation
+  - Clean and professional design
+  - Interactive 3D elements using Three.js
+
+- ✉️ Email Integration
+  - Contact form using EmailJS
+
+## 📄 License
+
+<div align="center">
+
+MIT License © [Lohit Kolluri](LICENSE)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+
+</div>
