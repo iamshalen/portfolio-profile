@@ -45,14 +45,14 @@ export const services = [
 ];
 
 export const technologies = [
-  { name: "HTML 5", icon: html },
-  { name: "CSS 3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "Rect JS", icon: reactjs },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
-  { name: "git", icon: git },
+  { name: "AWS", icon: html },
+  { name: "Kubernetes/Docker", icon: css },
+  { name: "CICD", icon: javascript },
+  { name: "CyberSecurity", icon: reactjs },
+  { name: "Python", icon: tailwind },
+  { name: "Project Management", icon: nodejs },
+  { name: "DevOps/DevSecOps", icon: threejs },
+  { name: "Git", icon: git },
 ];
 
 export const experiences = [
