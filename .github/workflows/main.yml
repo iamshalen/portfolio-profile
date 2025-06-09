@@ -33,7 +33,7 @@ jobs:
         run: npm install
 
       - name: Install GH pages dependencies
-        run: npm install --prefix gh-pages --save-dev
+        run: npm install gh-pages --save-dev
 
       - name: Ad GH pages
         run: npm run build
